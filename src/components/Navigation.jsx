@@ -17,7 +17,7 @@ export default function Nav() {
                     Contact
                 </Link>,
                 <Link key = {4} className="nav-link text-light" to="/resume">
-                    <Resume></Resume>
+                    Resume  
                 </Link>,
             ]}
         />
