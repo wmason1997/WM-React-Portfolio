@@ -22,7 +22,7 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        index: true,
+        index: true, // Set index: true for the default route
         element: <AboutPage />,
         path: 'about',
       },
@@ -39,10 +39,9 @@ const router = createBrowserRouter([
         element: <ContactPage />,
       },
     ],
-
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <RouterProvider router={router}/>
+  <RouterProvider router={router} />
 )

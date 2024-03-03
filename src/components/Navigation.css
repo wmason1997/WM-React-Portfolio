@@ -1,0 +1,6 @@
+/* Style for the active tab */
+.nav-link.active {
+    
+    font-weight: bold;
+    background-color: blue;
+}
