@@ -1,6 +1,11 @@
 import Project from "../components/Project";
-import weatherdashboard from "../assets/WM-Weather-Dashboard-Los-Angeles.png"
+import weatherdashboard from "../assets/WM-Weather-Dashboard-Los-Angeles.png";
 // Add images for projects 2-6
+import jatePic from "../assets/Text_Editor_Icon.png";
+import dailyScheduler from "../assets/Daily_Scheduler_Icon.webp";
+import passwordGenerator from "../assets/Password_Generator_Icon.gif";
+import greenPlanet from "../assets/Eco_Commerce_Icon.jpg";
+import tunesBrews from "../assets/Tunes-And-Brews-Icon.jpg";
 
 const PortfolioPage = () => {
     return (
@@ -17,7 +22,7 @@ const PortfolioPage = () => {
             <Project
                 name = {"Just Another Text Editor"}
                 live_url = {"https://wm-pwa-text-editor.onrender.com/"}
-                image_src = {weatherdashboard}
+                image_src = {jatePic}
                 repoUrl = {"https://github.com/wmason1997/WM-PWA-Text-Editor"}
                 repo = {"WM-PWA-Text-Editor"}
             />
@@ -25,7 +30,7 @@ const PortfolioPage = () => {
             <Project
                 name = {"Work Day Scheduler"}
                 live_url = {"https://wmason1997.github.io/WM-Calendar-Application/"}
-                image_src = {weatherdashboard}
+                image_src = {dailyScheduler}
                 repoUrl = {"https://github.com/wmason1997/WM-Calendar-Application"}
                 repo = {"WM-Calendar-Application"}
             />
@@ -33,7 +38,7 @@ const PortfolioPage = () => {
             <Project
                 name = {"Password Generator"}
                 live_url = {"https://wmason1997.github.io/WM-Password-Generator/"}
-                image_src = {weatherdashboard}
+                image_src = {passwordGenerator}
                 repoUrl = {"https://github.com/wmason1997/WM-Password-Generator"}
                 repo = {"WM-Password-Generator"}
             />
@@ -41,7 +46,7 @@ const PortfolioPage = () => {
             <Project
                 name = {"Taiga"}
                 live_url = {"https://immense-tor-19935-d43f1bf06a0b.herokuapp.com/"}
-                image_src = {weatherdashboard}
+                image_src = {greenPlanet}
                 repoUrl = {"https://github.com/wmason1997/Eco-Friendly-Marketplace"}
                 repo = {"Eco-Friendly-Marketplace"}
             />
@@ -49,7 +54,7 @@ const PortfolioPage = () => {
             <Project
                 name = {"Tunes and Brews"}
                 live_url = {"https://wmason1997.github.io/Upcoming-Concert-Brewery-Locator/"}
-                image_src = {weatherdashboard}
+                image_src = {tunesBrews}
                 repoUrl = {"https://github.com/wmason1997/Upcoming-Concert-Brewery-Locator"}
                 repo = {"Upcoming Concert Brewery Locator"}
             />
