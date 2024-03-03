@@ -1,6 +1,7 @@
 import Project from "../components/Project";
+
+// Add images for projects 1-6
 import weatherdashboard from "../assets/WM-Weather-Dashboard-Los-Angeles.png";
-// Add images for projects 2-6
 import jatePic from "../assets/Text_Editor_Icon.png";
 import dailyScheduler from "../assets/Daily_Scheduler_Icon.webp";
 import passwordGenerator from "../assets/Password_Generator_Icon.gif";
