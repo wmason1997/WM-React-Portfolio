@@ -14,14 +14,22 @@ const ResumePage = () => {
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
+                    <li>jQuery</li>
+                    <li>React</li>
+                    <li>Bootstrap</li>
+                    <li>responsive design</li>
                 </ul>
             </div>
             <div>
                 <p>Backend Proficiencies</p>
                 <ul>
                     <li>MongoDB</li>
-                    <li>MongoDB</li>
-                    <li>MongoDB</li>
+                    <li>APIs</li>
+                    <li>Node</li>
+                    <li>Express</li>
+                    <li>MySQL, Sequelize</li>
+                    <li>GraphQL</li>
+                    <li>REST</li>
                 </ul>
             </div>
         </div>
