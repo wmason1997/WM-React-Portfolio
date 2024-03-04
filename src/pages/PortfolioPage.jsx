@@ -17,7 +17,7 @@ const PortfolioPage = () => {
                 live_url = {"https://wmason1997.github.io/WM-Weather-Dashboard/"}
                 image_src = {weatherdashboard}
                 repoUrl = {"https://github.com/wmason1997/WM-Weather-Dashboard"}
-                repo = {"Github"}
+                repo = {"WM-Weather-Dashboard"}
             />
             {/* Project 2: J.A.T.E. */}
             <Project
