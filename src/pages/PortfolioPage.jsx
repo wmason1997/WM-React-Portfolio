@@ -1,12 +1,12 @@
 import Project from "../components/Project";
 
 // Add images for projects 1-6
-import weatherdashboard from "../assets/WM-Weather-Dashboard-Los-Angeles.png";
-import jatePic from "../assets/Text_Editor_Icon.png";
-import dailyScheduler from "../assets/Daily_Scheduler_Icon.webp";
+import weatherdashboard from "../assets/Weather_Dashboard_Gif.webp";
+import jatePic from "../assets/Text_Editor_Gif.gif";
+import dailyScheduler from "../assets/Daily_Scheduler_Gif.gif";
 import passwordGenerator from "../assets/Password_Generator_Icon.gif";
-import greenPlanet from "../assets/Eco_Commerce_Icon.jpg";
-import tunesBrews from "../assets/Tunes-And-Brews-Icon.jpg";
+import greenPlanet from "../assets/Eco_Commerce_Gif.gif";
+import tunesBrews from "../assets/Tunes-And-Brews-Gif.gif";
 
 const PortfolioPage = () => {
     return (
