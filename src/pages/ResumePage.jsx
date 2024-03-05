@@ -5,7 +5,10 @@ const ResumePage = () => {
             <h1>Resume</h1>
                 <p>Click the link below to download my resume:</p>
                 <a href="http://localhost:3000/src/assets/William_Mason_Resume.pdf" download="http://localhost:3000/src/assets/William_Mason_Resume.pdf" >Download PDF</a> 
+                <br></br>
                 {/* Will have to change it later to the address based on the deployed site's URL */}
+                <p>Click the link below to view my resume on Google Docs:</p>
+                <a href="https://docs.google.com/document/d/1sSX-8xED-FLb94Pz5kor51kYQLelQ80tw34aPO4_GZM/edit?usp=sharing" open="https://docs.google.com/document/d/1sSX-8xED-FLb94Pz5kor51kYQLelQ80tw34aPO4_GZM/edit?usp=sharing" >Open Resume</a>
             
                 <br></br>
             <div>
