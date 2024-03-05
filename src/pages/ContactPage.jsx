@@ -125,7 +125,7 @@ const ContactPage = () => {
           required
         ></textarea>
         <br></br>
-        <button className="contact-inquiry-button">Submit</button>
+        <button className="contact-inquiry-button" style={{background: "#5d0cff", color: "#fff"}}>Submit</button>
         <p>{nameErrorMessage}</p>
 
         <p>{emailErrorMessage}</p>
