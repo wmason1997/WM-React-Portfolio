@@ -1,5 +1,5 @@
 // import React, useState for error handling
-import React, { useState } from "react";
+import { useState } from "react";
 
 const ContactPage = () => {
   // Set up the React hooks
@@ -27,6 +27,13 @@ const ContactPage = () => {
       setNameErrorMessage(""); // Good name. Empty string reassigned for rendering.
     }
   };
+  
+  // onBlur event for when user clicks out of name field
+  const handleNameBlur = () => {
+    if (!validateName(name)) {
+      setNameErrorMessage("Name is required.");
+    }
+  };
 
   // Email logic
   const validateEmail = (email) => {
@@ -46,8 +53,15 @@ const ContactPage = () => {
     }
   };
 
-  // Message logic
+    // onBlur event for when user clicks out of email field
+    const handleEmailBlur = () => {
+      if (!validateEmail(email)) {
+        setEmailErrorMessage("Email is required.");
+      }
+    };
 
+
+  // Message logic
   const validateMessage = (message) => {
     return message.length > 0; // Validates that name is not empty
   };
@@ -62,6 +76,13 @@ const ContactPage = () => {
       setMessageErrorMessage(""); // Good message. Empty string reassigned for rendering.
     }
   };
+
+      // onBlur event for when user clicks out of message field
+      const handleMessageBlur = () => {
+        if (!validateMessage(message)) {
+          setMessageErrorMessage("Message is required.");
+        }
+      };
 
   return (
     <div style={{ display: "flex", justifyContent: "center" }}>
@@ -80,6 +101,7 @@ const ContactPage = () => {
           placeholder="Your name"
           name="your_name"
           onChange={handleNameChange}
+          onBlur={handleNameBlur}
           required
         ></input>
         <br></br>
@@ -89,6 +111,7 @@ const ContactPage = () => {
           name="your_email"
           placeholder="Your email"
           onChange={handleEmailChange}
+          onBlur={handleEmailBlur}
           required
         ></input>
         <br></br>
@@ -97,6 +120,7 @@ const ContactPage = () => {
           value={message}
           name="your_message"
           onChange={handleMessageChange}
+          onBlur={handleMessageBlur}
           style={{ height: "150px", width: "189px" }}
           required
         ></textarea>
