@@ -1,6 +1,6 @@
 const ResumePage = () => {
     return (
-        <div>
+        <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
             {/* Your resume page content here */}
             <h1>Resume</h1>
                 <p>Click the link below to download my resume:</p>
