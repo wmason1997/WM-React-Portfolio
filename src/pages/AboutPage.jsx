@@ -46,7 +46,7 @@ export default function AboutPage() {
           </div>
         </section>
         <p>
-        I am a full stack web developer with a robust foundation in autonomous vehicles software, applied mathematics, and statistics. I am excited to fall down the rabbit hole that is software engineering and web development. In my free time, I can be found training for my next marathon or half-Ironman. I am also a self-proclaimed cinephile and card-carrying member of the AMC Stubs A-List, but my Letterboxd is not up to date, so my Strava will have to do below for now. Happy coding and thanks for stoping by!
+        I am a full stack web developer with a robust foundation in autonomous vehicles software, applied mathematics, and statistics. I am excited to fall down the rabbit hole that is software engineering and web development. In my free time, I can be found training for my next marathon or half-Ironman. I am also a self-proclaimed cinephile and card-carrying member of the AMC Stubs A-List, but my Letterboxd is not up to date, so my Strava will have to do below for now. Happy coding and thanks for stopping by!
         </p>
       </div>
     );
