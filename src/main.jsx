@@ -24,7 +24,11 @@ const router = createBrowserRouter([
       {
         index: true, // Set index: true for the default route
         element: <AboutPage />,
+        path: '',
+      },
+      {
         path: 'about',
+        element: <AboutPage />,
       },
       {
         path: 'portfolio',
