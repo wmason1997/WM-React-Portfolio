@@ -131,6 +131,8 @@ const ContactPage = () => {
         <p>{emailErrorMessage}</p>
 
         <p>{messageErrorMessage}</p>
+        <br></br>
+        <p>Note: I need to further build out the functionality of this intake form. So,<br></br> in the meantime, here is my email address: williamcmason1997@gmail.com</p>
       </form>
     </div>
   );
