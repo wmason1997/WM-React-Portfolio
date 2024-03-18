@@ -4,9 +4,6 @@
 [https://golden-nougat-67d061.netlify.app/](https://golden-nougat-67d061.netlify.app/)
 
 
-# WM-PWA-Text-Editor
-
-
 ## Table of Contents
 * [Description](#description)
 * [Deployed Application](#deployed-application)
